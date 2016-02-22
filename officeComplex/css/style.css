@@ -1,0 +1,71 @@
+body{
+	background-color: #999;
+}
+
+.clear { clear: both; }
+
+.banner {
+	height: 300px;
+	background-image: url(../img/officecomplex.png);
+}
+
+.banner h1 {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.banner a {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 25pt;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.banner a:hover {
+	text-decoration: underline;
+}
+
+.main_menu {
+	height: 50px;
+}
+
+.main_menu ul {
+	padding-top: 5px;
+	text-align: center;
+}
+
+.main_menu li {
+	margin-left: 10px;
+}
+
+.main_menu li a {
+
+}
+
+.container {
+	background-color: #fff;
+	width: 940px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-height: 898px;
+}
+.main_menu {
+	background-color: #00001A;
+}
+
+.main_menu li {
+	display: inline-block;
+}
+.sec_content {
+	margin-top: 25px;
+}
+/* 250 x 160*/
+.sec_content article {
+	width: 250px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	float: left;
+}
