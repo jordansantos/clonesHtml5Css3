@@ -1,0 +1,28 @@
+body {
+	font-family: 'MontSerrat', sans-serif;
+}
+
+header {
+	background: #bbb;
+}
+
+.menu-principal li {
+	display: inline;
+}
+
+.menu-principal li a {
+	color: #000;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.banner-principal {
+	width: 100%;
+}
+
+.centralizar-conteudo {
+	margin: 0 auto;
+	width: 940px;
+}
